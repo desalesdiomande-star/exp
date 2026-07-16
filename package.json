@@ -13,7 +13,6 @@
     "@chakra-ui/react": "^3.36.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "boostrap": "^2.0.0",
     "bootstrap": "^5.3.8",
     "framer-motion": "^12.42.2",
     "next": "16.2.10",
