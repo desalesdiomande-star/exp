@@ -25,13 +25,13 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-[6.5fr_3.5fr] grid-rows-2 lg:grid-rows-1 lg:col-span-1 lg:row-span-1 rounded-lg gap-3 sm:gap-4 md:gap-5 h-auto lg:h-[60vh]">
 
           <div className="bg-[#FADCD9] rounded-lg flex flex-col items-center justify-center gap-2 sm:gap-3 md:gap-5 relative h-[35vh] sm:h-[45vh] lg:h-auto">
-            <Image src="/FLOWER ICON.png" alt="fleur" width={50} height={50} className="absolute top-2 right-2 sm:top-3 sm:right-3 md:top-4 md:right-4 w-6 h-6 sm:w-9 sm:h-9 md:w-[50px] md:h-[50px]" />
-            <p className="text-left font-[Gilroy] text-base sm:text-2xl md:text-4xl lg:text-5xl px-2 sm:px-3 md:px-4 absolute bottom-2 sm:bottom-4 md:bottom-7">
-              Artist Redefining <span className="font-bold"> Architecture </span>with AI-Driven Design
+            <Image src="/FLOWER ICON.png" alt="fleur" width={50} height={50} className="absolute top-2 right-2 sm:top-3 sm:right-3 md:top-4 md:right-4 w-6 h-6 sm:w-6 sm:h-9 md:w-[50px] md:h-[50px]" />
+            <p className="text-left font-[Gilroy] font-bold text-2xl sm:text-4xl md:text-5xl px-2 sm:px-3 md:px-4 absolute bottom-2 sm:bottom-4 md:bottom-7">
+              Artist Redefining <br /><span className="font-light"> Architecture </span>with <br /> AI-Driven Design
             </p>
           </div>
 
-          <div className="bg-[#FADCD9] rounded-lg flex items-center justify-center relative h-[35vh] sm:h-[45vh] lg:h-auto">
+          <div className="bg-[#FADCD9] rounded-lg flex items-center justify-center relative h-[40vh] sm:h-[60vh] lg:h-auto">
             <Image src="/PORTRAIT.png" alt="portrait" fill className="object-cover rounded-lg" />
           </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
 
           </div>
 
-          <div className="bg-[#FADCD9] text-[10px] sm:text-xs rounded-lg flex items-center justify-between m-1.5 sm:m-2 md:m-2.5 px-2 sm:px-3">
+          <div className="bg-[#FADCD9] text-[12px] p-2 sm:text-xs rounded-lg flex items-center justify-between m-1.5 sm:m-2 md:m-2.5 px-2 sm:px-3">
             <div>INSTAGRAM</div>
             <div>TWITTER</div>
             <div>LINKEDIN</div>
@@ -59,7 +59,7 @@ export default function Home() {
 
           <div className="bg-[#FADCD9] lg:col-span-1 lg:row-span-1 rounded-lg flex items-center justify-center relative h-[35vh] sm:h-[45vh] lg:h-auto">
             <Image src="/CIRCLE ICON.png" alt="circle" width={100} height={100} className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 absolute top-2 left-2 sm:top-3 sm:left-3 md:top-4 md:left-4" />
-            <p className="text-left font-[Gilroy] text-[10px] sm:text-sm md:text-lg px-2 sm:px-3 md:px-4 mr-4 sm:mr-8 md:mr-15 absolute bottom-2 sm:bottom-4 md:bottom-7">
+            <p className="text-left font-[Gilroy] text-[14px] sm:text-xl md:text-lg px-2 sm:px-3 md:px-4 mr-4 sm:mr-8 md:mr-15 absolute bottom-2 sm:bottom-4 md:bottom-7">
               Julia Huang is an innovative AI artist,
               renowned for blending cutting-edge technology
               with creative expression. Based in LA,
@@ -73,7 +73,7 @@ export default function Home() {
               Have some <br /> questions?
             </p>
             <Image src="/ARROW.png" alt="fleche" width={100} height={100} className="absolute top-2 right-2 sm:top-3 sm:right-3 md:top-4 md:right-4 w-7 h-7 sm:w-9 sm:h-9 md:w-12 md:h-12" />
-            <p className="text-center font-[Gilroy] text-lg sm:text-3xl md:text-4xl lg:text-5xl font-bold bottom-3 sm:bottom-6 md:bottom-10 absolute left-2 sm:left-3 md:left-4">Contact me</p>
+            <p className="text-center font-[Gilroy] text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bottom-2 sm:bottom-6 md:bottom-10 absolute left-2 sm:left-3 md:left-4">Contact me</p>
           </div>
 
         </div>
